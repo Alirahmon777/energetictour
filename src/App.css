@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+
+  
+  .services {
+    background-image: url('./assets/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('./assets/images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  
+  .hero-btns button{
+    width: 522%;
+    margin-left: -211% !important;
+    height: 83px;
+    border-radius: 25px;
+  }
+
+  .btns{
+    margin: auto;
+    height: 500px !important;
+  }
+
+  .cad {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+  }
+  .fixed-menu, .firs-pos{
+    display: flex;
+  }
+  .fixed-menu{
+    padding: 10px 1%;
+  }
+
+  
+  .firs-pos, .second-pos{
+    margin-top: 10px;
+  }
+
+  .fixd{
+    display: flex;
+  }
+
+  .inline{
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-left: 20px;
+  }
+
+  .mypone p{
+    text-decoration: none !important;
+    list-style-type: none;
+  }
+
+  .myptwo{
+    color: rgb(113, 116, 116);
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+  .myfirstbutton{
+    width: 10% !important;
+  }
+
+  .mybnt button{
+    width: 200px !important;
+    height: 60px;
+    margin-left: 25% !important;
+    font-size: 20px;
+    border: none;
+    background-color: #7c4d00;
+    transition: .3s linear;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  .mybnt button:hover{
+    background-color: #925c04;
+    letter-spacing: 2px;
+  }
+
+
+  @media screen and (max-width: 1250px){
+    
+}
+
+@media screen and (max-width:840px) {
+    .fixed-menu{
+      display: block;
+    }
+    .firs-pos{
+      width: 100%;
+      justify-content: space-around;
+    }
+    .second-pos{
+      width: 100%;
+      padding-left: 20%;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .mybnt button{
+      margin-left: 18% !important;
+    }
+    .over{
+      display: block !important;
+    }
+    .information, .forma{
+      width: 80% !important;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+    .forma button{
+      font-size: 16px !important;
+    }
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.over{
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.forma{
+  width: 55%;
+  height: 560px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  padding-top: 30px;
+  box-shadow: 1px 1px 10px 2px rgb(224, 219, 219);
+}
+
+.forma input{
+  display: block;
+  outline: none;
+  margin-left: 7%;
+  margin-top: 15px;
+  height: 60px;
+  width: 42%;
+  padding-left: 2%;
+  border: 1px solid rgb(182, 181, 181);
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.margin{
+  margin-left: 3% !important;
+}
+.dflex{
+  display: flex;
+}
+
+.hundred{
+  width: 87% !important;
+
+}
+
+.forma textarea{
+  display: block;
+  outline: none;
+  margin-left: 7%;
+  margin-top: 25px;
+  height: 200px;
+  width: 87%;
+  padding-left: 2%;
+  border: 1px solid rgb(182, 181, 181);
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.cls{
+  margin-top: 30px !important;
+}
+
+.forma button{
+  margin-left: 7%;
+  margin-top: 20px;
+  width: 30%;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  background-color: #7c4d00;
+  border-radius: 36px;
+  color: white;
+  font-family: sans-serif;
+  transition: .2s linear;
+}
+
+.forma button:hover{
+  background-color: #925c04;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.information{
+  width: 40%;
+}
+
+.information h1{
+  text-align: start;
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+.information p{
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  margin-top: 20px;
+}
+
+.information hr{
+  width: 80%;
+  margin-top: 30px;
+}
+
+.oh{
+
+}

@@ -1,0 +1,341 @@
+.maincar{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+
+.maincar img{
+    height: 500px !important;
+}
+
+.carousel .thumb{
+    width: 10% !important;
+    height: 100px;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.infobar{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.info{
+    display: flex;
+}
+
+.infobar h1{
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.box{
+    display: flex;
+    width: 200px;
+}
+
+.borderxs{
+    border: 1px solid rgb(197, 190, 190);
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.minibox h4{
+    font-size: 20px;
+    padding-top: 0px;
+}
+.minibox p{
+    font-weight: 100;
+    color: rgb(83, 82, 82);
+}
+
+.box1{
+    display: flex;
+}
+
+.box2{
+    display: flex;
+}
+
+
+
+.df{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: -150px;
+}
+
+.card{
+    margin-top: 270px;
+    border:  1px solid rgb(197, 190, 190);
+    width: 370px;
+    border-radius: 26px;
+    padding: 50px 12px 0 12px;
+    box-shadow: 1px 2px 50px 2px rgb(138, 138, 138);
+    height: 820px;
+}
+
+.otziv{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.otziv p{
+    color: rgb(97, 101, 103);
+}
+
+.icon1{
+    margin-top: 3px;
+    margin-right: 5px;
+    color: #ffb21d;
+}
+.otziv p span{
+    color: #000;
+}
+
+.star{
+    display: flex;
+}
+
+.hr{
+    border: 1px dashed rgb(138, 135, 135);
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form{
+    padding: 0 0 0px 10px;
+}
+
+.form h1{
+    text-align: start;
+}
+.form h4{
+    width: 92%;
+    color: #747171;
+    font-weight: 100;
+    margin-top: 12px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.form p{
+    margin-top: 30px;
+    color: #625c5c;
+    font-family: sans-serif;
+}
+
+.myimg1{
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+}
+
+.form input{
+    width: 92%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(185, 180, 180);
+    margin-top: 15px;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #757070;
+}
+
+.form button{
+    width: 92%;
+    margin: 40px auto 0 auto;
+    height: 50px;
+    border-radius: 32px;
+    border: none;
+    background-color: #ffb21d;
+    font-size: 20px;
+    transition: .2s linear;
+}
+
+.form button:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: rgb(229, 165, 36);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px){
+    .box1, .box2{
+        display: block;
+    }
+
+    .box2{
+        margin-left: 20%;
+    }
+    .card{
+        width: 30%;
+        height: 800px !important;
+    }
+}
+@media screen and (max-width:1070px) {
+    .card{
+        height: 850px !important;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .info{
+        display: block;
+        margin: 0 30%
+    }
+    .box2{
+        margin-left: 0;
+    }
+    .box{
+        margin-top: 30px;
+    }
+    .df{
+        display: block;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+        height: 810px !important;
+    }
+    .infobar{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .card{
+        height: 900px !important;
+    }
+}
+
+.hr1{
+    margin-left: 0;
+    width: 100%;
+}
+
+.comma{
+    display: flex;
+}
+.first, .second{
+    width: 45%;
+}
+.inline{
+    display: inline;
+}
+
+.second{
+    margin-left: 50px;
+}
+
+.myp1{
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: -10px !important;
+    font-size: 18px;
+}
+
+.clr{
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.accordion {
+    max-width: 400px;
+    margin: 100px auto 0;
+    border-radius: 3px;
+    background: #f1f1f1;
+}
+
+.accordion-visible {
+    background: #7177ca;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #474d9b;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.accordion-visible span {
+    padding: 15px 0;
+    font-size: 20px;
+}
+.accordion-visible img {
+    width: 20px;
+    transform: rotate(-90deg);
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-visible img.active {
+    transform: rotate(0deg)
+}
+
+.accordion-visible h2 {
+    font-size: 20px;
+}
+
+.accordion-toggle {
+    height: 0px;
+    font-size: 18px;
+    opacity: 0;
+    transition:  
+    opacity 0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
+    color: #333;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.animated {
+    opacity: 1;
+    transition:  
+    height 0.3s ease-in-out,
+    opacity 0.3s 0.3s ease-in-out;
+}
+
+.accordion-toggle p {
+    margin: 0;
+    padding: 22px 15px;
+    pointer-events: none;
+    line-height: 1.3;
+}
+
+.box{
+    background-color: transparent !important;
+    height: 70px !important;
+}
